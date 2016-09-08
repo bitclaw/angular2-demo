@@ -1,3 +1,6 @@
 <h1>{{title}}</h1>
-<div [style.color] = 'mycolor'>{{name}}</div>
+<div [style.color] = 'mycolor'>
+    Hello {{name}}
+</div>
 <button (click) = "changeColor()">Change color</button>
+<input type="text" [value] = "name">
