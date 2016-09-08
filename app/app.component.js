@@ -23,7 +23,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n        <h1>{{title}}</h1>\n        <div [style.color] = 'mycolor'>{{name}}</div>\n        <button (click) = \"changeColor()\">Change color</button>\n    "
+            templateUrl: 'app/app.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

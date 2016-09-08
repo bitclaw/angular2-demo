@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: `
-        <h1>{{title}}</h1>
-        <div [style.color] = 'mycolor'>{{name}}</div>
-        <button (click) = "changeColor()">Change color</button>
-    `
+    templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
 
